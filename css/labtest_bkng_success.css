@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#msg-box{
+	width: 60%;
+	height: 68vh;
+	margin: auto;
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: bisque;
+	padding: 30px 40px;
+	padding-bottom: 15px;
+	border-radius: 55px;
+    box-shadow: 4px 4px 6px grey;
+}
+#msg-box img{
+	width: 160px;
+    height: 138px;
+    border-radius: 32px;
+}
+#msg-box h3{
+	font-family: 'Patrick Hand', cursive;
+	font-weight: bold;
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+}
+#thank-you{
+	font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    letter-spacing: 3.2px;
+}
+#bkng-info{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+#bkng-info {
+	font-family: 'Secular One', sans-serif;
+}
+#call-no{
+	font-family: 'PT Serif', serif;
+	color: #002244;
+	margin: 0px 5px;
+}

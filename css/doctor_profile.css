@@ -1,0 +1,295 @@
+
+
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    
+    top: 75px;
+    background: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bg img{
+    position: absolute;
+    width: 100%;
+    height: 470px;
+    opacity: 70%;
+}
+.bg h1{
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(61, 28, 28);
+    text-shadow:5px 5px 5px rgb(88, 81, 81);
+}
+.bg h4{
+    position: absolute;
+    left: 1000px;
+    top: 300px;
+    font-family: 'Courgette', cursive;
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(6, 13, 51);
+    text-shadow:5px 5px 5px rgb(88, 81, 81);
+}
+
+/* Profile Picture  */
+
+.box
+{
+    position: absolute;
+    width: 100%;
+    top: 480px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content
+{
+    position: relative;
+   left:150px; 
+   border:2px solid black;
+    padding:10px;
+    background-color: bisque;
+    box-shadow: 5px 5px 5px rgb(1, 39, 61);
+   
+   
+}
+
+.left-content span{
+    padding-left:10px;
+    font-size: 20px;
+    font-weight:bolder;
+    font-family: 'Ubuntu Mono', monospace;
+}
+.right-content
+{
+     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper-image
+{
+    position:relative;
+    top:360px;
+    
+}
+.mid-content{
+    position:relative;
+    left:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.profile-pic-div{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid rgb(1, 1, 56);
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+.profile-pic-div:hover{
+    transform: scale(1.3);
+    background: rgb(248, 213, 167);
+}
+
+.line-break{
+    position: absolute;
+    top: 850px;
+    width: 80%;
+    height: 4px;
+    left: 12%;
+    border: 1px solid #413f3f;
+    background-color: black;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top:20px;
+    
+    
+}
+.about h3{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Luxurious Roman', cursive;
+    position: relative;
+    
+}
+.about p{
+    color: black;
+    font-weight: bolder;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 20px;
+}
+
+
+
+
+.update-button{
+    cursor: pointer;
+    position: absolute;
+    width:12%;
+    height: 15%;
+    top:450px;
+    right:300px;
+    border-radius: 10px;
+    background-color: rgb(37, 37, 37);
+    color: blanchedalmond;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    
+}
+
+.update-button .fas
+{
+   margin-right:10px;
+}
+
+
+
+#heading
+{
+    position:relative;
+    top:900px;
+    left:700px;
+    margin-bottom: 0;
+    font-weight: bolder;
+    font-size:50px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+}
+#heading .fa{
+    margin-left: 60px;
+    color:black;
+    font-size: 50px;
+}
+
+
+.profile-tab{
+    width:100%;
+    height:100%;
+    position: relative;
+    top:900px;
+    left:300px;
+   
+   
+}
+
+
+.btn-box
+{   height: 20%;
+    width:80%;
+    display: flex;
+    
+}
+   
+.btn-box button{
+    width: 25%;
+    height: 100%;
+    border: none;
+    outline:none;
+    cursor: pointer;
+    padding: 10px;
+    font-size:20px;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(6, 6, 44);
+    background-color: rgb(172, 168, 168);
+    
+   
+}
+.btn-box .fas{
+   color:rgb(3, 3, 109);
+   font-size: 30px;
+}
+.btn-box button:hover 
+{
+    background-color: #d7d4d4;
+   
+} 
+.btn-box button:focus
+{
+    outline:none;
+    background-color: #d7d4d4;
+} 
+
+
+#btn1
+{
+    background-color: #d7d4d4;
+}
+.tabPanel
+{
+    
+    display:flex;
+    justify-content:space-between;
+    flex-direction: column;
+    align-items:flex-start;
+    margin-right:5%;
+    background-color: rgb(190, 219, 219);
+    width:60%;
+    padding:30px;
+    box-shadow: 5px 10px 20px rgb(65, 64, 64) inset;
+   
+}
+
+
+.info
+{
+    width: 100%;
+}
+.info h5{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.info p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+}
+hr.line
+{
+    border:none;
+    border-top: 2px solid;
+    width:80%;
+}
+#content2,#content3
+{
+    display:none;
+}
+
+
+.footer{
+    background:black;
+    margin-bottom: 0%;
+    position:absolute;
+    top:2230px;
+    width: 100%;
+    height:90px;
+  }
+ 
+
+.fcontainer{
+    display: flex;
+    justify-content: center;
+  }
+  .fitems{
+    margin-right: 30px;
+  }

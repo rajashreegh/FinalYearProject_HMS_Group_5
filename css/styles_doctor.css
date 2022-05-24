@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    background-color:lightblue;
+    position: relative;
+   
+}
+.navbar li{
+    list-style: none;
+    float: left;
+    padding: 1%;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar ul{
+    overflow:auto;
+}
+body{
+    font-family: "Aclonica","Sofia", sans-serif; 
+    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("./img_madhusmita/1.jpg"); */
+    background-image: url(../IMAGES/img3/img5.jpg);
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+
+}
+.rcorners1{
+  border-radius: 25px;
+  background: linear-gradient(lightblue,white);
+  padding: 20px; 
+  width: 350px;
+  height: 175px; 
+  text-align: center;
+  margin-top: :250px;
+  border:5px solid black;
+  font-size: 180%;
+}
+.button{
+    float: right;
+    appearance: none;
+  background-color:white;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  color: black;
+  cursor: pointer;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 12px 25px;
+  min-width: 0;
+  outline: none;
+  padding: 8px 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 7%;
+  will-change: transform;
+}
+.button:hover {
+    background-color: #0A66C2;
+    color: white;
+}
+.button-18 {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+   
+h1{
+    text-align: center;
+}
+.head1{
+    background-color: turquoise;
+}
+.img2{
+    float: left;
+    margin-left: 60px;
+    border-radius: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.logo{
+  bottom: 0%;
+  position: fixed;
+  float: left;
+}
+.footer{
+  background:black;
+  bottom: 0%;
+  position:absolute;
+  width: 100%;
+  height:90px;
+}
+.dashboard{
+  background: lightblue;
+  width: 400px;
+ 
+  height: 400%;
+  transform: rotateZ(-90deg);
+  font-weight: 300;
+  font-size: 150%;
+  margin-left: -130px;
+  margin-top: 0px;
+  letter-spacing: 8px;
+  text-align: left;
+  border:5px solid black;
+}
+.rcor{
+  border-radius: 25px;
+  background: linear-gradient(rgb(102, 102, 212),white);
+  padding: 20px; 
+  width: 350px;
+  height: 175px; 
+  text-align: center;
+  float:right;
+  margin-right: 240px;
+  margin-bottom: 30px;
+  border:5px solid black;
+  font-size: 180%;
+}
+.fcontainer{
+  display: flex;
+  justify-content: center;
+}
+.fitems{
+  margin-right: 30px;
+}

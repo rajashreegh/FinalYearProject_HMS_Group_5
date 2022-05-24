@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('#patient_login_btn').click(function(){
+        $('#patientRegisterModal').modal('hide');
+        $('#patientLoginModal').modal('show');
+    });
+    $('#patient_reg_btn').click(function(){
+        $('#patientLoginModal').modal('hide');
+        $('#patientRegisterModal').modal('show');
+    });
+});

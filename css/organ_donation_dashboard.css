@@ -1,0 +1,136 @@
+
+
+.carousel{
+    height:500px;
+}
+.carousel-pic{
+    height:500px; 
+}
+.register-div{
+    position: absolute;
+    left:50%;
+    top: 10px;
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cards{
+    position: relative;
+}
+.reg-btn{
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Quintessential', cursive;
+    color: rgb(0, 0, 0);
+}
+.card-text{
+    font-size: 35px;
+    color: white;
+    font-family: 'Yellowtail', cursive;
+}
+.bclr{
+    background-color: rgb(100, 6, 6);
+    width: 70%;
+    color: white;
+}
+ul li a{
+    font-size: 20px;
+    font-family: 'Quintessential', cursive;
+    color: rgb(0, 0, 0);
+}
+/* .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: rgb(240, 230, 230);
+    background-color: rgb(58, 53, 53);
+} */
+.content{
+    font-size: 22px;
+    /* font-family: 'Redressed', cursive;
+    color: rgb(29, 3, 3); */
+}
+.myths{
+    font-size: 15px;
+    font-style: italic;
+}
+.img-circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid rgb(14, 13, 13);
+}
+.myth-img{
+    height:60px;
+    width:330px;
+}
+.card-img-top{
+    height:250px;
+}
+.col-bg{
+    background-image: url("../IMAGES/organ_donation/bg.jpg");
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    font-family: 'Redressed', cursive;
+}
+.col-bg-2{
+    background-image: url("../IMAGES/organ_donation/bg2.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    font-family: fantasy;
+    color: rgb(2, 2, 27);
+}
+.btn-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-shadow{
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.read-more-1{
+    display: none;
+}
+.text_1.show-more-1.read-more-1{
+    display: inline;
+}
+
+.modal-bg-title{
+    background-color: rgb(6, 6, 65);
+}
+.bg-img-3{
+    background-image: url('../IMAGES/organ_donation/faq-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    color: rgb(1, 1, 66);
+}
+.bg-img-1{
+    background-image: url('../IMAGES/organ_donation/knoow_donation_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+}
+.bg-img-2{
+    background-image: url('../IMAGES/organ_donation/types_2.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.scroll-bg{
+    background-image: url('../IMAGES/organ_donation/scroll-bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.required{
+    color: red;
+}
+
+.process{
+    width:700px;
+    height: 700px;
+}

@@ -1,0 +1,18 @@
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+}
+.img-account-profile {
+    height: 10rem;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.profile-pic{
+    background: url('../IMAGES/img5/admin_doc.png');
+}
+.card-bg{
+    background: url('../IMAGES/img5/medical-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

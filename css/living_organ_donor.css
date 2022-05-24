@@ -1,0 +1,82 @@
+.tab{
+    height: 120px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+}
+.line{
+
+    height:2px;
+    background-color: rgb(2, 2, 43);
+}
+.active{
+    border-width: 3px;
+    background-color: rgb(190, 221, 190);
+    color: black;
+    font-style: italic;
+}
+.card-header{
+    font-size: 20px;
+    font-weight: bold;
+}
+.required {
+    color: red;
+  }
+.instruction-card{
+    height: 230px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.instruction-card .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.instruction-card .card-header{
+    border-radius: 20px;
+    color: rgb(16, 16, 151);
+}
+.instruction-card::before{
+    content: "";
+      background-image: url('../IMAGES/organ_donation/instruction-bg.jpg');
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+
+}
+#read_section{
+    display: block;
+}
+#personal_section{
+    display: none;
+}
+#contact_section{
+    display: none;
+}
+#emergency_section{
+    display: none;
+}
+#declaration_section{
+    display: none;
+}
+.form-bg{
+    background-image: url('../IMAGES/organ_donation/donor-bg.webp');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading{
+    background: linear-gradient(rgb(99, 99, 247),rgb(105, 138, 105));
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

@@ -1,0 +1,28 @@
+rzp_test_apHiJcgfDobbIN
+
+SELECT a.booking_id, a.date, a.visit, b.doctor_name, d.dept_name
+FROM checkup_bookings a INNER JOIN doctor_login b ON a.doc_id=b.doctor_id
+INNER JOIN doc_dep c ON b.doctor_id=c.doc_id 
+INNER JOIN departments d ON c.dept_id=d.dept_id
+WHERE a.booker_id=8;
+
+
+SELECT a.booking_id, a.date,a.amount, b.test_name
+FROM test_bookings a INNER JOIN labtest b ON a.test_id=b.id
+WHERE booker_id=28 AND billing_status='Incomplete';
+
+
+SELECT a.discharge_id, a.health_issue, a.admitted_date, a.discharge_date, b.total_amount, b.bill_doc
+FROM discharge_bed a INNER JOIN discharge_bill b on a.patient_id=b.patient_id
+WHERE a.patient_id=8;
+
+
+
+
+
+
+
+
+
+
+_

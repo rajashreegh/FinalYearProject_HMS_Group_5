@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bgclr{
+	background-color: #13274F;
+}
+.inpt-frmt{
+	width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+#add_box{
+	width: 21%;
+	height: 10%;
+	position: absolute;
+	right: 2%;
+	bottom: 75%;
+	background-color: darkred;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+#add_box h3{
+	font-family: 'Kanit', sans-serif;
+}
+#add_box i{
+	font-size: 1.8rem;
+}
+#add_box button{
+	margin-left: 30px;
+}
+#back_arrrow{
+  position: absolute;
+  top: 13%;
+  left: 2%;
+  font-size: 2rem;
+  color: black;
+}

@@ -1,0 +1,53 @@
+body{
+    background: url('../IMAGES/payment/payment_checkout.jpg');
+    background-position: center;
+    background-size:100% 600px;
+    background-repeat: no-repeat;
+}
+.container-fluid .row{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.row-2{
+    position: relative;
+    margin-top: 20px;
+    width:50%;
+    left: 25%;
+    display: flex;
+    flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.col-md-7{
+    background: rgb(253, 245, 234);
+    height:580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	align-items: center;
+}
+.col-md-5{
+    background: url('../IMAGES/payment/payment_4.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+}
+.head-row{
+    background: url('../IMAGES/payment/razorpay.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width:100%;
+    top: 10px;
+    position: absolute;
+}
+.content{
+    font-size: 17px;
+    color: rgb(0, 0, 66);
+    font-family:monospace;
+}

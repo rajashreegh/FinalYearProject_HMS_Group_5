@@ -1,0 +1,133 @@
+
+.profile-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#heading 
+{
+    position: absolute;
+    top:250px;
+    left:200px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(2, 2, 59);
+    
+}
+.profile-pic-container
+{
+    position: absolute;
+    top:150px;
+    left:600px;
+    height:290px;
+    width:400px;
+    background:linear-gradient(rgb(161, 47, 47),rgb(177, 138, 144));
+    border: 5px solid rgb(29, 1, 1);
+    border-radius: 15px 50px;
+}
+
+.profile-pic{
+    position:relative;
+    left:80px;
+    top:10px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid grey;
+}
+
+#photo{
+    height: 100%;
+    width: 100%;
+}
+
+#update-button
+{
+    position: relative;
+    top:30px;
+    left:10px;
+}
+.side-image
+{
+    position:absolute;
+    left:1100px;
+    top: 150px;
+}
+.container
+{
+        position:absolute;
+        top:80%;
+        left:10%;
+        
+       
+}
+.nav-link
+{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+.content
+{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:50%;
+    height:20vh;
+    
+   
+}
+.image-content
+{
+    position: relative;
+    top:300px;
+    left:200px;
+
+}
+
+.details
+{
+    
+    position:absolute;
+    top:80px;
+    left:50px;
+    background-color: rgb(184, 184, 236);
+    padding: 20px;
+    width:70%;
+    border:2px solid black;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px rgb(1, 13, 80);
+    height:80vh;
+    margin-bottom: 20%;
+   
+}
+#myform
+{
+    position: relative;
+    top:100px;
+}
+#submit-button
+{
+    position:relative;
+    left:330px;
+    top:200px;
+}
+.nextbtn
+{
+    position: relative;
+    left: 600px;
+    
+}
+
+input[type='number']{
+    width: 90px;
+}
+.form-heading
+{
+    font-family: 'Roboto Slab', serif;
+    
+} 
+
+

@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 100%;
+	height: 88vh;
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../IMAGES/img/health_bg.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 3%;
+}
+#key_features{
+	width: 75%;
+	height: 75vh;
+	margin: auto;	
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: white;
+}
+#key_features i,#exclusions i{
+	margin-right: 30px;
+}
+#common_pts{
+	margin-bottom: 45px;
+}
+#diff{
+	display: flex;
+	justify-content: space-evenly;
+}
+#non_premium,#premium{
+	flex: 1;
+	font-style: italic;
+}
+#non_premium h3,#premium h3,#exclusions h3{
+	font-size: 2.3rem;
+	text-decoration: underline;
+	margin-bottom: 30px;
+}
+hr{
+	transform: rotate(180deg);
+    border: 1px solid white;
+    height: 32%;
+    position: absolute;
+    right: 55%;
+    top: 64%;
+    outline: grey;
+}
+#exclusions{
+	width: 50%;
+	height: 35vh;
+	margin: auto;
+	margin-top: 5%;
+	font-family: 'Shadows Into Light', cursive;
+	color: darkred;
+	font-size: 1.4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#exclusions h3{
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+}
+#policy{
+	width: 75%;
+	height: 60vh;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 50px;
+	background-image: linear-gradient(to bottom right,rgba(221, 136, 247, 0.1),rgba(96,96,96,0.8));
+}
+.scheme{
+	width: 30%;
+	height: 70%;
+	padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px 0px #202020;
+	background-color: #E8E8E8;
+}
+.scheme h3{
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-weight: 2rem;
+	text-align: center;
+}
+.scheme h5{
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+}
+.scheme h2{
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+}

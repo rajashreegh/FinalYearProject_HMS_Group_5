@@ -1,0 +1,550 @@
+.topbar{
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    background: #c7e9eb;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+    z-index: 3;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 60px;
+}
+nav ul li a{
+    position: relative;
+    top:20px;
+    text-decoration: none;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav ul li a:hover{
+    color: black;
+    text-shadow:5px 5px 5px rgb(151, 142, 142);
+}
+
+.logo{
+    position: absolute;
+    left: 71.99px;
+    top: 0px;
+    width: 75px;
+    height: 75px;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    left: 0px;
+    top: 75px;
+    background: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bg img{
+    position: absolute;
+    width: 100%;
+    height: 440px;
+    left: 0px;
+    top: 0px;
+}
+.bg h1{
+    position: absolute;
+    left: 250px;
+    top: 140px;
+
+    font-family: "Audiowide", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    text-shadow:5px 5px 5px rgb(88, 81, 81);
+}
+.bg h4{
+    position: absolute;
+    left: 1050px;
+    top: 320px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow:5px 5px 5px rgb(88, 81, 81);
+}
+.about-us{
+    position: absolute;
+    width: 100%;
+    top: 530px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+}
+.about-us h1{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Audiowide", sans-serif;
+}
+.intro{
+    position: relative;
+    width: 80%;
+    height: 180px;
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.intro p{
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    right: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(5, 36, 94);
+}
+.line{
+    position: absolute;
+    width: 80%;
+    height: 0px;
+    left: 180px;
+    top: 800px;
+    border: 1px solid #E0E0E0;
+}
+.vision-mission-values{
+    position: absolute;
+    top: 840px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+    
+}
+.mission-vision-value-cards{
+    position: absolute;
+    top:50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mission-vision {
+    position: relative;
+    height: 420px;
+    width: 300px;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+.mission-vision h2{
+    position: absolute;
+    top: 30px;
+    left: 77px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.mission-vision p{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    right: 40px;
+    color: black;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+.left-quote{
+    position: relative;
+    top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    color: black;
+    opacity: 50%;
+}
+.right-quote{
+    position: absolute;
+    left: 170px;
+    color: black;
+    opacity: 50%;
+}
+.mission-icon{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    font-size: 65px;
+    color: rgb(4, 124, 84);
+} 
+
+.values{
+    position: relative;
+    height: 420px;
+    width: 300px;
+    border: 2px solid #E0E0E0;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+}
+.values h2{
+    position: absolute;
+    top: 30px;
+    left: 77px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.values-icon{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    font-size: 65px;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.values p{
+    position: absolute;
+    left: 50px;
+    top: 170px;
+    right: 20px;
+    color: black;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    
+}
+.list{
+    position: absolute;
+    top:205px;
+    left: 45px;
+    color: black;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 15px;
+}
+.line2{
+    position: absolute;
+    width: 80%;
+    height: 0px;
+    left: 180px;
+    top: 1370px;
+    border: 1px solid #E0E0E0;
+}
+.twenty-four-seven-services{
+    position: absolute;
+    top: 1400px;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+
+}
+.twenty-four-seven-services h1{
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Audiowide", sans-serif;
+
+}
+
+.service-intro{
+    position: relative;
+    width: 70%;
+    color: black;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+.bg3{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.service-card{
+  
+    position: relative;
+    height: 200px;
+    width: 350px;
+    background: linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    border: 2px solid #E0E0E0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+    z-index: 1;
+    cursor: pointer;
+}
+.service-card:hover{
+    height: 460px;
+    overflow: visible;
+    display: flex;
+    transition: height 0.5s;
+}
+.service-txt{
+    position: absolute;
+    top: 210px;
+    left: 5px;
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.service-txt h3{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Audiowide", sans-serif;
+}
+.service-txt p{
+    position: relative;
+    font-size: 20px;
+    font-style: italic;
+    color: white;
+
+}
+.service-image{
+    position: absolute;
+    height: 200px;
+    width: 348px;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.banner-img{
+    position: relative;
+    height: 100px;
+    width:25%;
+}
+
+.line3{
+    position: absolute;
+    width: 80%;
+    height: 0px;
+    left: 180px;
+    top: 2070px;
+    border: 1px solid #E0E0E0;
+}
+.research-area{
+    position: absolute;
+    top: 2100px;
+    width: 100%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+.research-area h1{
+    position: relative;
+    top: 10px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(0, 45, 66), rgb(26, 192, 90));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+    font-family: "Audiowide", sans-serif;
+}
+.research-intro{
+    position: relative;
+    width: 70%;
+    text-align: center;
+    font-style: italic;
+    color: black;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.research-topics{
+    position: relative;
+    width: 60%;
+    background-color: transparent;
+    height: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.research-name{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(0, 45, 66);
+    overflow: hidden;
+    align-items: center;
+    z-index: 1;
+}
+.research-name:hover{
+    height: 420px;
+    width: 220px;
+    display: flex;
+    overflow: visible;
+    transition: height 0.5s;
+    opacity: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index:2;
+
+}
+.research-icon{
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    color: white;
+    font-size: 80px;
+}
+.research-txt{
+    position: absolute;
+    top: 150px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.line4{
+    position: absolute;
+    width: 80%;
+    height: 0px;
+    left: 180px;
+    top: 2590px;
+    border: 1px solid #E0E0E0;
+}
+.last-section{
+    position: absolute;
+    width: 100%;
+    top: 2640px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: url("../IMAGES/img1/last-section-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cm-mssg{
+    position: relative;
+    width: 60%;
+    left: 150px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.cm-mssg h1{
+    position: relative;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 35px;
+    color: rgb(0, 45, 66);;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.cm-mssg p{
+    position: relative;
+    font-family: cursive;
+    font-style: italic;
+    color: black;
+    opacity: 80%;
+    font-size: 22px;
+
+}
+table{
+    position: relative;
+    width: 25%;
+    right: 0%;
+}
+tr{
+    border-left: 10px solid black;
+    border-bottom: 10px solid black
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    
+  }
+th{
+    font-size: 18px;
+    font-family: "Audiowide", sans-serif;
+}
+td{
+    font-size: 20px;
+    opacity: 80%;
+    color: rgb(0, 0, 0);
+}
+.award{
+    position: relative;
+    color: rgba(238, 216, 14, 0.842);
+    stroke: black;
+    stroke-width: 0.5px;
+    font-size: 50px;
+    text-shadow:5px 5px 5px rgb(88, 81, 81);
+}
+.end-bar{
+    position: absolute;
+    left:0px;
+    right:0px;
+    top: 3000px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+.end-bar img{
+    position: relative;
+    align-content: center;
+    left: 45%;
+    top: 5px;
+    height: 45px;
+    width: 60px;
+    padding-right: 20px;
+}

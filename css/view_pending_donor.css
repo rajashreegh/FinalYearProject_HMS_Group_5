@@ -1,0 +1,22 @@
+.donor-dp{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+table, th, td {
+    border: 10px solid white;
+  }
+  th, td {
+     
+    text-align: center;
+    font-size: 15px;
+  }
+th{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+td{
+    position: relative;
+    align-items: center;
+    font-style: italic;
+   
+}

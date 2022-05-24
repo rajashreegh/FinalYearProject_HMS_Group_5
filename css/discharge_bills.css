@@ -1,0 +1,59 @@
+#header
+{
+    position:absolute;
+    top:20%;
+    left:38%;
+    font-family: 'Abril Fatface', cursive;
+}
+.details
+{
+    position:absolute;
+    top:40%;
+    left:40%;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+.myform
+{
+    position:absolute;
+    top:700px;
+    left:27%;
+    box-shadow: 5px 5px 5px grey;
+    padding:30px;
+    padding-left: 120px;
+    width:50%;
+    height:130vh;
+    background-color: rgb(146, 219, 195);
+}
+.form-heading
+{
+   
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+} 
+.inpt-box
+{
+    width:80%;
+    border-radius: 50px;
+
+}
+.field_set{
+    border:1px solid black !important;
+  }
+  
+.mybtn
+  {
+     position: absolute;
+     left:45%;
+    font-weight: bolder;
+}
+.fa-file-invoice
+{
+    margin-right: 10px;
+}
+
+
+

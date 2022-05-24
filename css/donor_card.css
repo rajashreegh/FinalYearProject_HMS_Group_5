@@ -1,0 +1,131 @@
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}.logo-pic{
+    height: 100px;
+    width: 100px;
+}
+.ashok_stambh{
+    height:120px;
+    width:120px;
+    border-radius: 50%;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background:rgb(194, 202, 218);
+    border-radius: 80px;    
+    height:550px;
+  }
+  .row{
+      width: 100%;
+  }
+  .text-right{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+  }
+  .hospital_name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    font-style: italic;
+  }
+  .hosp_name{
+      font-size: 22px;
+      font-weight: bold;
+  }
+  .vl {
+    background:rgb(76, 92, 76);
+    width:6px;
+    height: 60px;
+  }
+  .bg-clr{
+      background: rgb(1, 1, 56);
+      font-family: 'Rowdies', cursive;
+      font-size: 40px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+  }
+  .donor_dp{
+      height: 150px;
+      width:150px;
+      margin-left: 20px;
+      border: 5px solid rgb(0, 0, 0);
+  }
+  .data{
+      font-weight: bold;
+      text-decoration: underline;
+  }
+  .text-body{
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      margin-top: 25px;
+  }
+  .date_reg{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .foot{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+.text-white{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.header-2{
+    padding: 10px;
+    
+    width: 100%;
+    background:rgb(194, 202, 218);
+    border-radius: 80px;    
+    height:550px;
+  }
+  .row-new{
+    position: absolute;
+    float: left;
+    width: 100%;
+  }
+  .col-25{
+    float: left;
+    width: 25%;
+    height: fit-content;
+  }
+  .col-75{
+    float: left;
+    width: 75%;
+    height:fit-content;
+  }
+  .col-50{
+    float: left;
+    width: 50%;
+    height:fit-content;
+  }
+  .page-2-head{
+      position: absolute;
+      margin-top: 50px;
+      
+  }
+  .align-right{
+      text-align: right;
+  }
+  .text-center{
+      text-align: center;
+  }
+  .text-left{
+      text-align: left;
+  }
+  .margin-20{
+    margin-top: 50px;
+  }

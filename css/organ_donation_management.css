@@ -1,0 +1,31 @@
+.container-fluid .row .card-body{
+    position: relative;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.card{
+    width:30%; 
+    height:270px;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 80px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+.card::before{
+      content: "";
+      background-image: url('../IMAGES/organ_donation/card-bg.png');
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.3;
+      border-radius: 80px;
+}
+a{
+    color: rgb(6, 6, 58);
+}

@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: white;
+}
+#form_box{
+	width: 98%;
+	height: 88vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#form1{
+	width: 48%;
+}
+#form1,#form2{
+    height: 95%;
+	padding: 30px 38px;
+	background-color: rgb(238, 230, 214);
+	border-radius: 50px;
+	box-shadow: 2px 2px 10px 0px darkgray;
+}
+#form1 label,#form2 label{
+	margin-right: 30px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.inpt-frmt{
+	width: 55%;
+	margin-bottom: 15px;
+}
+.hide{
+	display: none;
+}
+#form2{
+	width: 46%;
+	position: relative;
+}
+#cross{
+	position: absolute;
+	top: 4%;
+	right: 4%;
+	font-size: 2rem;
+	cursor: pointer;
+}
+#form2 h4{
+	font-family: 'Teko', sans-serif;
+	font-size: 2rem;
+    letter-spacing: 2px;
+    margin-bottom: 4%;
+}
+#family_plan_apply_btn2{
+	float: right;
+    margin-top: 2%;
+}
+    

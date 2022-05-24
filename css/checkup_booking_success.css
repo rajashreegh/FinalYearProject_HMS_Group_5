@@ -1,0 +1,215 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#main-box{
+	width: 100%;
+	height: 88vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../IMAGES/img4/sccss_bg.png");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.success-box{
+	width: 35%;
+	height: 50vh;
+	margin-left: 30%;
+	background-color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 10px 20px;
+	transition: all 0.4s;
+}
+.success-box img{
+	position: absolute;
+    top: -33px;
+    left: 43%;
+    width: 58px;
+    height: 60px;
+}
+#right-btn{
+	position: absolute;
+    right: -34px;
+    top: 135px;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+#success{
+	font-family: 'Abril Fatface', cursive;
+	font-size: 2.4rem;
+    letter-spacing: 1.4px;
+}
+#thanks{
+	font-family: 'Dancing Script', cursive;
+	font-size: 2rem;
+    font-weight: bold;
+}
+#thanks i{
+	color: #f4c430;
+}
+#call{
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 1.1px;
+}
+#num{
+	font-family: 'Lobster', cursive;
+	color: #006400;
+}
+.info-box{
+	width: 100%;
+	height: 100%;
+	background-color: bisque;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	padding: 7px 18px;
+}
+
+.show{
+	left: 108%;
+	z-index: 1;
+}
+.shift-left{
+	margin-left: 15%;
+}
+
+#upper{
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    font-family: 'Acme', sans-serif;
+}
+#middle{
+	margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
+#b-id,#lower{
+	font-family: 'Acme', sans-serif;
+}
+#pay-btn{
+	position: absolute;
+    right: 20px;
+    bottom: 13px;
+}
+
+/*PAYMENT OPTIONS PAGE*/
+
+.payment-page{
+	width: 50%;
+	margin: auto;
+	height: 70%;
+	margin-top: 35px;
+	margin-bottom: 1%;
+	border: 1px solid rgba(255, 230, 230,0.4);
+	padding: 20px 60px;
+	border-radius: 45px;
+    background-color: rgba(255, 230, 230,0.4);
+}
+.modes input{
+	margin-right: 20px;
+	cursor: pointer;
+	/*font-family: 'Teko', sans-serif;*/
+}
+.modes label{
+	cursor: pointer;
+	font-size: 2rem;
+	letter-spacing: 2px;
+	font-family: 'Dongle', sans-serif;
+}
+.modes hr{
+	outline: none;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 14px;
+}
+.icon{
+	font-size: 1.8rem;
+    margin-left: 25px;
+}
+.bold{
+	font-weight: bold;
+}
+
+
+/*PAYMENT CONFIRMATION PAGE*/
+
+#p_cnfrm_box{
+	width: 50%;
+	margin: auto;
+	height: 57vh;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	border: 11px solid rgba(255, 230, 230,0.8);
+	padding: 20px 60px;
+	border-radius: 45px;
+    background-color: rgba(255, 230, 230,0.3);
+}
+#middle-box{
+	text-align: center;
+	margin-top: 12%;
+    margin-bottom: 20px;
+    font-family: 'Acme', sans-serif;
+}
+#middle-box h5{
+	letter-spacing: 2px;
+    font-style: italic;
+    color: green;
+    margin-top: 15px;
+}
+#lower-box{
+	font-family: 'Acme', sans-serif;
+	margin-top: 12%;
+}
+#lower-box h2{
+	display: inline-block;
+}
+#lower-box a{
+	float: right;
+	letter-spacing: 1px;
+}
+.highlight{
+	font-family: 'Quintessential', cursive;
+	font-size: 2.2rem;
+	font-style: italic;
+	font-weight: bold;
+    color: maroon;
+}
+
+
+/*PAYMENT SUCCESSFULLY DONE PAGE*/
+
+.ch-booking-confirmation-page{
+	width: 100%;
+	height: 80vh;
+	margin-top: 2%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.ch-booking-confirmed{
+	width: 70%;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(246 234 251);
+	border-radius: 120px;
+}
+.ch-booking-pace-icon{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+#alert{
+	margin-top: 4%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: red;
+}

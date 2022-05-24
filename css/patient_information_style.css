@@ -1,0 +1,655 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+#top-bar{
+    width: 100%;
+    height: 13%;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+    }
+    #top-bar h2{
+    font-family: 'Passions Conflict', cursive;
+    font-weight: bold;
+      font-size: 5rem;
+      letter-spacing: 3px;
+      margin-left: 82px;
+      display: inline-block;
+    }
+    #top-bar a{
+      margin-top: 18px;
+      margin-right: 12px;
+    }
+    #buttons{
+    width: 15%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+    }
+
+
+.mybtn
+{
+    position:absolute;
+    left:85%;
+    top:11%;
+    background-color: #13274F;
+    color: antiquewhite;
+    padding:5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.fa-angle-double-left
+{
+    margin-right:10px;
+}
+  .navbar {
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    height: auto;
+    width: 95%;
+    background: linear-gradient(135deg, rgba(59,56,115,1) 0%, rgba(24,93,106,1) 49%, rgba(50,135,21,1) 100%, rgba(196,221,118,1) 100%);
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.navbar ul li.active {
+    background: #fff;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+.navbar ul li.active a {
+    color: #0e3d19;
+    font-weight:bolder;
+}
+.list-item i{
+    margin-right:10px;
+    font-size:30px;
+}
+
+ /* The Circles with box-shadow */
+
+li.active a::before {
+    content: "";
+    left: -30px;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+   
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 #fff;
+}
+li.active a::after {
+    content: "";
+    right: -30px;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+   
+    border-radius: 50%;
+    box-shadow: -15px 15px 0 #fff;
+}
+
+.profile-card
+{
+    position:absolute;
+    top:250px;
+    left:30px;
+    border:5px solid rgb(112, 110, 110);
+    width:30%;
+    height:65vh;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+.card-image
+{
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    width:100%;
+    height:18vh;
+    background: url(../IMAGES/image/card-image.jpg);
+    background-size: cover;
+    
+}
+.profile-image
+{
+    width:180px;
+    height:180px;
+    border:1px solid black;
+    border-radius: 50%;
+    position:relative;
+    bottom:13%;
+    overflow: hidden;
+    left:130px;
+    
+}
+.profile-image:hover{
+    transform: scale(1.3);
+   
+}
+#photo
+{
+    width:100%;
+    height:100%;
+    
+}
+#info1{
+    position:relative;
+    bottom:8%;
+    color: rgb(17, 17, 59);
+    font-size:30px;
+    font-weight:bold;
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+
+}
+.profile-info 
+{
+    border-top:3px solid rgb(117, 116, 116);
+    width:100%;
+    height:18vh;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+    background-color: #13274F;
+    
+    
+}
+.info2{
+    
+    position:relative;
+    top:15px;
+    left:30px;
+    font-family: 'Roboto Slab', serif;
+    color: azure;
+    font-size: 25px;
+    
+    
+}
+
+#content1
+{
+    display: block;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    position: absolute;
+    top:33%;
+    left:45%;
+    width:700px;
+    height:65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../IMAGES/image/green-texture.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+}
+#content1:hover{
+    transform:translate(10px,10px);
+	transition-duration: 1s;
+}
+
+#header1{
+    position: absolute;
+    top:5%;
+    left:24%;  
+    font-size:30px;
+    color:#fff;
+    font-family: 'Playfair Display SC', serif;
+    letter-spacing: 2px;
+}
+.info3
+{
+    display: flex;
+    justify-content:space-evenly;
+    position: absolute;
+    top:15%;
+    left:10%;
+    width:90%;
+    padding: 20px;
+   
+}
+
+#header2{
+    position: absolute;
+    top:55%;
+    left:20%;
+    letter-spacing: 2px;
+    font-size:25px;
+    color:#fff;
+    font-family: 'Playfair Display SC', serif;
+}
+.info4
+{
+    display: flex;
+    justify-content:space-around;
+    position: absolute;
+    top:60%;
+    left:10%;
+    width:90%;
+    padding: 20px;
+    
+}
+.details
+{
+    width:50%;
+    margin:20px auto;
+}
+.details p{
+   
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+}
+
+.hide
+{
+    display: none;
+    
+}
+
+#content2
+{
+    width:800px;
+    height:450px;
+    background:black;
+    position:absolute;
+    top:35%;
+    left:40%;
+    display:flex;
+    background: linear-gradient(90deg, rgba(240,57,137,1) 11%, rgba(238,174,202,1) 75%, rgba(239,216,240,1) 96%);
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+   
+   
+}
+#content2:hover{
+    transform: translate(5px,5px);
+	transition-duration: 1s;
+}
+
+
+.box1
+{
+    height:100%;
+    width:calc(50% - 50px);
+    background: linear-gradient(90deg, rgba(227,233,141,1) 2%, rgba(208,118,88,1) 54%, rgba(179,56,27,1) 100%);
+    box-sizing:border-box;
+}
+.box-contents
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    position: relative;
+    top:10%;
+    left:5%;
+    font-size: 30px;
+    text-align:center;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 1px;
+    width:100%;
+    height:80%;
+    color: rgb(8, 8, 59);
+}
+.checkup-btn
+{
+    background: #2d3436;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 50px;
+}
+.back
+{
+    position:absolute;
+    top:32%;
+    left:95%;
+    font-size: 50px;
+    cursor: pointer;
+    color:rgb(75, 4, 4);
+}
+ .box2{
+     height:100%;
+    width:calc(50% + 50px);
+    background:transparent;
+    border-left:100px solid rgba(179,56,27,1);
+    border-bottom:300px solid transparent;
+    box-sizing:border-box;
+   
+}
+#checkup
+{
+    position: relative;
+    top:30%;
+    right: 10%;
+}
+
+
+#content3
+{
+    
+  
+   position: absolute;
+   top:30%;
+   left:35%;
+   width:60%;
+   height:auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+.mybox1{
+    
+    
+    margin:20px auto;
+    flex-basis: 40%;
+	height:62vh;
+    border-radius:20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background:linear-gradient(to top,#f08edf,#9a96e6);
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+    
+}
+#icon1
+{
+    position:relative;
+    top:2%;
+    left:20%;
+}
+#message1
+{
+    position:relative;
+    top:20%;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:rgb(80, 3, 3);
+}
+.labtest-info
+{
+    position:relative;
+    top:10%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight:bold;
+    line-height: 20px;
+    text-align: center;
+
+}
+
+#content4
+{
+   
+    position: absolute;
+    top:35%;
+    left:35%;
+    width:60%;
+    height:100%;
+    
+   
+   
+
+}
+
+.mybox2
+{
+    
+   
+    position: relative;
+    left:30%;
+    width:400px;
+    height:65vh;
+    border-radius:20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background:linear-gradient(to top,#68f198,#ad84e2);
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+#icon2
+{
+    position:absolute;
+    left:23%;
+}
+.heading
+{
+    position: relative;
+    top:25%;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    color: rgb(82, 14, 14);
+}
+.admit-info
+{
+    position:relative;
+    top:25%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight:bold;
+    line-height: 30px;
+    text-align: center;
+}
+#message2
+{
+    position:absolute;
+    top:50%;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:rgb(80, 3, 3);
+}
+#msg
+{
+    position:absolute;
+    top:50%;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:rgb(80, 3, 3);
+}
+.wrapper
+{
+    
+   position: absolute;
+   top:33%;
+   left:35%;
+   width:60%;
+   height:auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+  
+}
+.mybox3{
+    
+    
+    margin:10px auto;
+    flex-basis: 40%;
+	height:65vh;
+    border-radius:20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background:linear-gradient(to top,#cc7c05,#f0d18e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.heading1
+{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 30px;
+    position:relative;
+    text-align: center;
+    color: black;
+
+}
+
+.appointments-info
+{
+    position:relative;
+    top:5%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight:bolder;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    
+}
+.appointments-info1
+{
+    position:relative;
+    top:15%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight:bolder;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: black;
+    
+}
+#icon3
+{
+    position:relative;
+    top:5%;
+    left:27%;
+}
+#message3
+{
+    position:relative;
+    top:17%;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color:rgb(9, 17, 51);
+    
+}
+.mybox4{
+    
+    
+    margin:20px auto;
+    flex-basis: 40%;
+	height:62vh;
+    border-radius:20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background:linear-gradient(to top,#cc7c05,#f0d18e);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+    
+}
+
+#content7
+{
+    
+  
+   position: absolute;
+   top:30%;
+   left:35%;
+   width:60%;
+   height:auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+  
+   
+
+}
+.mybox5{
+    
+    
+    margin:20px auto;
+    flex-basis: 45%;
+	height:75vh;
+    border-radius:20px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    background:linear-gradient(to top,#68f198,#ad84e2);
+    box-shadow: rgba(0, 0, 0, 0.8) 5px 10px 20px;
+    
+}
+#icon4
+{
+    position:relative;
+    top:2%;
+    left:25%;
+}
+
+.discharge-info
+{
+    position:relative;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    font-weight:bold;
+    line-height: 30px;
+    text-align: center;
+
+}
+.heading2
+{
+    position: relative;
+    top:2%;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 35px;
+    color: rgb(82, 14, 14);
+}

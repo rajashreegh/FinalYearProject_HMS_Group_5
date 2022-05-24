@@ -1,0 +1,42 @@
+body{
+    background-image: url('../IMAGES/organ_donation/knoow_donation_bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.font-head{
+    font-family: fantasy;
+}
+.personal-bg{
+    background-image: url('../IMAGES/organ_donation/personal_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-bg{
+    background-image: url('../IMAGES/organ_donation/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.emergency-bg{
+    background-image: url('../IMAGES/organ_donation/emergency-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.medical-bg{
+    background-image: url('../IMAGES/organ_donation/medical-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+label{
+    font-weight: bold;
+}
+.required {
+    color: red;
+  }
+  .card-header{
+      font-size: 22px;
+      font-weight: bold;
+  }

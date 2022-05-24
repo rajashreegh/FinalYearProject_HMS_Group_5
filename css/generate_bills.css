@@ -1,0 +1,94 @@
+#photo
+{
+    width:200px;
+    height:200px;
+    position: absolute;
+    left:45%;
+}
+.dashboard
+{
+    
+    position:absolute;
+    top:40%;
+    left:10%;
+    width:85%;
+    height:55%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bill-box{
+	width: 50%;
+	height: 40%;
+	background-color: #a4c8e0;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin: 15px;
+	box-shadow: 5px 5px 15px #61700a;
+}
+.bill-box img{
+	width: 30%;
+	height: 100%;
+	
+}
+.bill-box h3{
+	margin-left: 30px;
+	font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+}
+.fa-hand-point-right
+{
+    font-size: 50px;
+    margin-left: 20px;
+    color: rgb(6, 6, 56);
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    text-align: center;
+    padding: 9px 5px;;
+  }
+  th{
+      font-family: 'Supermercado One', cursive;
+      font-size: 1.3rem;
+      letter-spacing: 2px;
+      color: white;
+      background-color: #681b08;
+  }
+  td{
+      font-family: 'Dosis', sans-serif;
+      font-weight: bold;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+  }
+  tr:nth-child(even){
+      background-color: #f0ca9a;
+  }
+  tr:nth-child(odd){
+      background-color: #d6d592;
+  }
+
+.billing-table 
+{
+    position: absolute;
+    top:20%;
+    left:4%;
+}
+.mybtn i
+{
+    margin-right:10px;
+}
+.message
+{
+    position:absolute;
+    top:30%;
+    left:25%;
+    font-family: 'Playfair Display SC', serif;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 5rem;
+}

@@ -1,0 +1,46 @@
+table{
+
+    width: 60%;
+}
+table, th, td {
+    border: 10px solid white;
+  }
+  th, td {
+    
+    text-align: center;
+    font-size: 15px;
+  }
+th{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+td{
+    font-style: italic;
+}
+.buttons{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons a{
+  width:95%;
+  margin-bottom: 5px;
+}
+.bgclr{
+	background-color: #13274F;
+}
+.inpt-frmt{
+	width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.icon-design{
+	font-size: 20px;
+  margin-right: 10px;
+}
+.required {
+    color: red;
+  }

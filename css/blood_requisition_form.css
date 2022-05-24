@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 80%;
+	height: 83vh;
+	margin: auto;
+	margin-top: 1%;
+	background-color: #E8E8E8;
+	display: flex;
+	    border-top-right-radius: 80px;
+}
+#box_l{
+	flex-basis: 28%;
+	background-image: url("../IMAGES/img/reqform.png");
+	background-position: center;
+	background-size: cover;
+}
+#box_r{
+	flex-basis: 72%;
+	padding-left: 30px;
+    padding-top: 20px;
+    box-shadow: -3px 0px 7px 0px grey;
+    border-top-right-radius: 80px;
+}
+#box_r label{
+	margin-right: 30px;
+	font-family: 'Dongle', sans-serif;
+	font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.inpt-frmt{
+	width: 39%;
+    outline: none;
+    border: none;
+    margin-bottom: 18px;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    padding: 0px 10px;
+    font-family: 'Dongle', sans-serif;
+	font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#recipient_details_sbmt_btn{
+	float: right;
+    margin-right: 30px;
+}

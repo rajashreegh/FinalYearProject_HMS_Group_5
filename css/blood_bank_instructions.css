@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#box{
+	width: 90%;
+	height: 100vh;
+	margin: auto;
+	position: relative;
+}
+#logo{
+	width: 22%;
+    height: 20%;
+    margin-top: 20px;
+}
+#rules{
+	width: 60%;
+	height: 60%;
+	background-image: url(../IMAGES/img/parchment.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	margin-top: 35px;
+	border-radius: 50px;
+}
+#design{
+	width: 18%;
+    height: 40%;
+    position: absolute;
+    right: -60px;
+    bottom: 16px;
+}
+#gdln{
+	font-family: 'Moon Dance', cursive;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+#points{
+	margin-left: 25px;
+	margin-top: 20px;
+	font-family: 'Mukta', sans-serif;
+	font-size: 1.1rem;
+    line-height: 28px;
+}
+#points i{
+	margin-right: 20px;
+	font-size: 1rem;
+	color: #BA0021;
+}
+#box a{
+	text-decoration: none;
+}
+#back{
+	position: absolute;
+    top: 10%;
+    right: -1%;
+    font-size: 2rem;
+    color: black;
+}

@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#back_arrrow{
+  position: absolute;
+  top: 19%;
+  left: 3%;
+  font-size: 2rem;
+  color: black;
+}
+body{
+	background-color: whitesmoke;
+}
+#wrapper{
+	width: 80%;
+	margin: auto;
+	margin-top: 9%;
+}
+.admit{
+	background-color: #f2fbfb;
+	width: 65%;
+	margin: auto;
+  height: 345px;
+  border: 3px solid #008080;
+  position: relative;
+  margin-bottom: 7%;
+  padding-top: 4%;
+}
+.allotment{
+  width: 59px;
+  height: 30px;
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  transform: translateX(-50%);
+  border-bottom: 1px solid #008080;
+  border-left: 1px solid #008080;
+  border-right: 1px solid #008080;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  background: #fff;
+}
+.allotment i{
+	font-size: 3.6rem;
+  position: absolute;
+  top: -95%;
+  left: 1%;
+  color: #008080;
+}
+.admit h2{
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 2px;
+}
+.admit h1{
+	font-family: 'Secular One', sans-serif;
+	text-align: center;
+	margin-top: 6%;
+}
+.down{
+	width: 100%;
+  height: 30%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0;
+}
+.admit h4{
+	font-family: 'Kanit', sans-serif;
+}
+.down_left,.down_right{
+  flex-basis: 45%;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.down_left i,.down_right i{
+	font-size: 2rem;
+  margin-bottom: 6px;
+}
+.location_desc{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.bed_room{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

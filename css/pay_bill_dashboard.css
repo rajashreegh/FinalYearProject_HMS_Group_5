@@ -1,0 +1,104 @@
+body{
+    background: url('../IMAGES/payment/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-fluid .row .card-body{
+    
+    position: relative;
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.container-fluid .row{
+    transition:.5s all;
+}
+.container-fluid:hover .card{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .container-fluid:hover .card:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+.card{
+    width:30%; 
+    height:270px;
+    font-size: 25px;
+    font-family: 'Ultra', serif;
+    border-radius: 40px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    color: rgb(21, 2, 66);
+}
+a{
+    color: rgb(21, 2, 66);
+    font-size: 35px;
+}
+.card-1::before{
+    content: "";
+    background-image: url('../IMAGES/payment/checkup_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    border-radius: 40px;
+}
+.card-2::before{
+    content: "";
+    background-image: url('../IMAGES/payment/labtest_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.3;
+    border-radius: 40px;
+}
+.card-3::before{
+    content: "";
+    background-image: url('../IMAGES/payment/hospital_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+    border-radius: 40px;
+}
+.card-4::before{
+    content: "";
+    background-image: url('../IMAGES/payment/payment_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+    border-radius: 40px;
+}
+.bg-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.bg-1 img{
+    height: 300px;
+    width: 900px;
+}

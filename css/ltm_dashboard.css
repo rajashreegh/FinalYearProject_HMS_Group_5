@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*TABLE*/
+
+table, th, td {
+  border: 4px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: center;
+  padding: 9px 5px;;
+}
+th{
+	font-family: 'Prompt', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  color: white;
+  background-color: rgb(52,3,46);
+}
+td{
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+tr:nth-child(even){
+	background-color: rgb(247, 243, 249);;
+}
+tr:nth-child(odd){
+	background-color:rgb(241, 224, 243);;
+}
+
+/*OTHER DESIGNS*/
+
+.action_icons{
+	margin-right: 6%;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.schedule{
+	color: #006400;
+}
+.edit{
+	color: darkblue;
+}
+.delete{
+	color: darkred;
+}
+.restore{
+	color: green;
+}
+#restore_tag{
+	text-decoration: none;
+}
+table a{
+	color: #0e66c5;
+	font-style: italic;
+	text-decoration: underline;
+}
+#nothing{
+	  text-align: center;
+    margin: 2%;
+    font-style: italic;
+    font-weight: bold;
+    color: darkorange;
+}
+
+/*MODALS*/
+
+.bgclr{
+	background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+}
+.inpt-frmt{
+	width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 40px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.icon-design{
+	font-size: 2rem;
+  	margin-right: 20px;
+}
+#scheduleLabtestModal form{
+	margin-top: 5%;
+}
+#scheduleLabtestModal .modal-body{
+	padding: 2rem;
+}
+#scheduleLabtestModal label{
+	font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-family: 'Akaya Telivigala', cursive;
+  margin-bottom: 5%;
+}
+#add_labtest_btn{
+	float: right;
+	margin-top: 1%;
+	margin-right: -10%;
+}
+
+
+/*NORMAL RANGE*/
+
+#heading{
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+  text-decoration: underline;
+}
+#nrml_range_table{
+	margin: auto;
+	margin-top: 8%;
+  width: 50%;
+}
+#back_arrrow{
+  position: absolute;
+  top: 19%;
+  left: 3%;
+  font-size: 2rem;
+  color: black;
+}

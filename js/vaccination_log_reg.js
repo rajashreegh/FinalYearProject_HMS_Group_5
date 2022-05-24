@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('#vaccination_login_btn').click(function(){
+        $('#vaccinationRegisterModal').modal('hide');
+        $('#vaccinationLoginModal').modal('show');
+    });
+    $('#vaccination_reg_btn').click(function(){
+        $('#vaccinationLoginModal').modal('hide');
+        $('#vaccinationRegisterModal').modal('show');
+    });
+});

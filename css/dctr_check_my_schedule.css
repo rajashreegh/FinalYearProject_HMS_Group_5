@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#wrapper{
+	width: 90%;
+	margin: auto;
+	margin-top: 2%;
+}
+#wrapper ul{
+	margin-bottom: 4%;
+}
+.nav-link{
+	font-family: 'Quintessential', cursive;
+	font-size: 1.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+a{
+	text-decoration: none;
+	color: #33aabd;
+}
+a:hover{
+	color: #227583;
+}
+.mark_as_done_btn{
+	font-size: 2rem;
+  cursor: pointer;
+  color: green;
+}
+.cancel_appointment_btn{
+	font-size: 2rem;
+  cursor: pointer;
+  color: darkred;
+  margin-left: 2%;
+}
+#no_appointment{
+	text-align: center;
+  margin-bottom: 2%;
+  font-family: 'Rowdies', cursive;
+}
+
+/*TABLE*/
+
+table, th, td {
+  border: 4px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: center;
+  padding: 9px 5px;;
+}
+th{
+	font-family: 'Prompt', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #002D62;
+}
+td{
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+  	font-size: 1.2rem;
+  	letter-spacing: 2px;
+}
+tr:nth-child(even){
+	background-color: #dae1e3;
+}
+tr:nth-child(odd){
+	background-color: #dff3f3;
+}

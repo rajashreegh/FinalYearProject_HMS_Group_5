@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#confirmation-box{
+	width: 80%;
+	height: 70vh;
+	margin: auto;
+	margin-top: 50px;
+	background-color: 	rgba(208,208,208,0.4);
+	padding: 20px 40px;
+	box-shadow: -4px 3px 10px 1px #007791;
+}
+#content{
+	position: relative;
+}
+.caption{
+	font-family: 'Yellowtail', cursive;
+	font-weight: bold;
+    letter-spacing: 4px;
+}
+.info{
+	font-family: 'Bree Serif', serif;
+}
+#test-name{
+	font-family: 'Acme', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+}
+hr{
+	margin: 25px 0px;
+	outline: none;
+	box-shadow: 0.5px 0.5px 1.7px #282828;
+}
+.date-room{
+	font-family: 'Secular One', sans-serif;
+}
+#amount{
+	font-family: 'Courgette', cursive;
+	float: right;
+	margin-top: 15px;
+}
+#money{
+	font-weight: bold;
+	font-family: 'Acme', sans-serif;
+	font-size: 2rem;
+}
+#test-confirmation-btn{
+	position: absolute;
+	right: 2px;
+    bottom: -126px;
+}

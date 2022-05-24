@@ -1,0 +1,225 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#health_intro{
+	width: 100%;
+	height: 88vh;
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../IMAGES/img/health_bg.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-top: 5%;
+}
+#health_intro_content{
+	width: 60%;
+	height: 70vh;
+	margin: auto;
+	background-image: linear-gradient(to bottom right,rgba(221, 136, 247, 0.6),rgba(0,0,0,0.5));
+	border-radius: 65px;
+	box-shadow: 1px 1px 6px 1px #808080;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	color: white;
+}
+.def{
+	font-family: 'Acme', sans-serif;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	padding: 0px 30px;
+}
+.def h2{
+	font-family: 'Patua One', cursive;
+	margin-bottom: 25px;
+	font-size: 2.5rem;
+}
+.fas{
+	margin-right: 30px;
+}
+#notice{
+	margin-top: 4%;
+	text-align: center;
+	font-family: 'Sedgwick Ave', cursive;
+	font-weight: bold;
+  letter-spacing: 2px;
+  animation: mymove 8s infinite;
+}
+#only{
+  	position: absolute;
+  	left: 2%;
+    top: 143%;
+    text-align: center;
+    transform: rotate(-37deg);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    animation: mymove 8s infinite;
+}
+@keyframes mymove {
+  0% {color: balck;}
+  25% {color: darkred;}
+  50% {color: blue;}
+  75% {color: darkgreen;}
+  100% {color: black;}
+}
+#plans{
+	width: 65%;
+	height: 50vh;
+	margin-left: 20%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background-color: rgba(221, 136, 247, 0.6);
+	border-radius: 40px;
+	position: relative;
+}
+.policy{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	border-radius: 40px;
+	box-shadow: 2px 2px 5px 2px grey;
+	transition: all 2s;
+}
+.p1{
+	flex: 1;
+}
+.p1 img{
+	width: 100%;
+	height: 100%;
+}
+.p2{
+	flex: 2;
+	text-align: center;
+    margin: auto;
+    padding: 0px 25px;
+}
+.p2 h3{
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 9%;
+	font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.p2 p{
+	font-family: 'Kanit', sans-serif;
+	font-size: 1.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+.p2 a{
+	text-decoration: none;
+	margin-left: 20%;
+}
+.p2 button{
+	margin-top: 8%;
+	float: right;
+    margin-right: 5%;
+}
+.hide{
+	display: none;
+}
+.footer{
+    background:black;
+    margin-top: 10%;
+    width: 100%;
+    height:90px;
+    color: white;
+}
+.fcontainer{
+    display: flex;
+    justify-content: center;
+  
+}
+.fitems{
+    font-family: "Aclonica","Sofia", sans-serif; 
+    font-size: 180%;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+#highlights{
+  	width: 56%;
+  	height: 30vh;
+  	margin: auto;
+  	font-family: 'Supermercado One', cursive;
+  	font-size: 1.5rem;
+}
+.cntct{
+  	font-size: 1.8rem;
+  	font-style: italic;
+  	color: darkgoldenrod;
+}
+#my_scheme_box{
+  	width: 95%;
+  	height: 40vh;
+  	margin: auto;
+  	margin-top: 7%;
+  	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+}
+#quote{
+  	width: 45%;
+  	height: 75%;
+  	color: white;
+  	margin-left: 5%;
+  	padding: 10px 25px;
+  	position: relative;
+  	background-image: linear-gradient(to bottom right,rgba(0,0,0,0.5),rgba(0,0,0,0.9));
+}
+#quote i{
+	font-size: 3.5rem;
+}
+#quote h3{
+	display: inline-block;
+	font-family: 'Quintessential', cursive;
+	font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+#quote p{
+	font-family: 'Murecho', sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 2%;
+}
+#quote hr{
+	border: 0.1px solid;
+    width: 20%;
+    float: right;
+    margin-right: 11%;
+    margin-top: 1%;
+}
+#quote #heart{
+	position: absolute;
+    right: 0%;
+    bottom: 1%;
+    font-size: 2rem;
+}
+#my_scheme{
+	width: 25%;
+    height: 100%;
+    margin-right: 10%;
+    box-shadow: 1px 1px 10px 0px rgb(213 226 237);
+    border-top: 10px solid #f1c36f;
+    background-color: ghostwhite;
+}
+#my_scheme h3{
+	font-family: 'Quintessential', cursive;
+	text-align: center;
+    margin-top: 27%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: darkblue;
+    text-shadow: 2px 2px #0da8b3;
+}
+#my_scheme a{
+	text-decoration: none;
+	margin-top: 11%;
+    float: right;
+}
+#my_scheme a i{
+	color: black;
+	font-size: 2.5rem;
+}
+

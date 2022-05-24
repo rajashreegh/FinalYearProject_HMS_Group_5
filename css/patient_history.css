@@ -1,0 +1,462 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+#top-bar{
+    width: 100%;
+    height: 13%;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #d3d3d3 74%);
+    }
+    #top-bar h2{
+    font-family: 'Passions Conflict', cursive;
+    font-weight: bold;
+      font-size: 5rem;
+      letter-spacing: 3px;
+      margin-left: 82px;
+      display: inline-block;
+    }
+    #top-bar a{
+      margin-top: 18px;
+      margin-right: 12px;
+    }
+    #buttons{
+    width: 15%;
+    height: 100%;
+    float: right;
+    margin-top: 10px;
+    }
+
+.navbar {
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    height: auto;
+    width: 95%;
+    background: linear-gradient(301deg, rgba(77,15,60,1) 13%, rgba(158,85,142,1) 48%, rgba(117,69,119,1) 88%, rgba(194,110,174,1) 100%);
+    
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0px;
+    padding-left: 40px;
+}
+
+.navbar ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.navbar ul li.active {
+    background: #fff;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color:  #fff;
+    font-weight: bold;
+   
+}
+
+.navbar ul li.active a {
+    color: #1d0933;
+    font-weight:bolder;
+}
+.list-item i{
+    margin-right:10px;
+    font-size:30px;
+}
+
+ /* The Circles with box-shadow */
+
+li.active a::before {
+    content: "";
+    left: -30px;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 #fff;
+}
+li.active a::after {
+    content: "";
+    right: -30px;
+    bottom: 0;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: -15px 15px 0 #fff;
+}
+
+#content1
+{
+    display: block;
+    position:absolute;
+    top:20%;
+    left:10%;
+    width: 85%;
+    height:auto;
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.hide
+{
+    display: none;
+}
+
+span{
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: bold;
+    font-size:2rem;
+}
+.card-box{
+	width: 600px;
+	height: 430px;
+	margin:50px auto;
+	position:relative;
+	cursor: pointer;
+    
+	
+}
+.card-box-front{
+	position: relative;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+	height: 100%;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	transform: perspective(500px) rotateY(0deg);
+    background: linear-gradient(233deg, rgba(139,190,123,1) 18%, rgba(215,194,69,1) 50%, rgba(106,171,172,1) 65%, rgba(253,187,45,1) 100%);
+    padding:20px;
+	box-shadow: 3px 3px 6px 5px #b5cabc;
+    font-family: 'Supermercado One', cursive;
+    font-size:2.5rem;
+    color:#300431;
+
+}
+.pic{
+    width:42%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:2;
+
+
+}
+.pic img{
+    width:100%;
+    height:100%;
+}
+.details{
+    width:50%;
+    height:auto;
+    float:right;
+   position:absolute;
+   top:30px;
+   left:45%;
+  
+}
+.message
+{
+    position:absolute;
+    top:100px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3.5rem;
+    color:#1d0933;
+
+}
+
+.card-box-back{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width:100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(../IMAGES/image/prescription1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+	backface-visibility: hidden;
+	transition: all 0.3s ease-in-out;
+	transform: perspective(500px) rotateY(180deg);
+   
+	
+}
+.card-box:hover .card-box-front{
+	transform: perspective(500px) rotateY(-180deg);
+}
+.card-box:hover .card-box-back{
+	transform: perspective(500px) rotateY(0deg);
+}
+
+.card-box-back-in{
+    position:absolute;
+    top:3%;
+	width: 100%;
+	text-align: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size:2.5rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color:rgb(243, 172, 79);
+}
+.pescription-btn
+{
+    background: #300431;
+    color: blanchedalmond;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    border-radius: 20px;
+    margin-top:5%;
+    width:250px;
+    position:absolute;
+    top:250px;
+    right:170px;
+    
+}
+
+#content3
+{
+    position:absolute;
+    top:20%;
+    left:10%;
+    width: 85%;
+    height:auto;
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+  
+   
+    
+}
+
+.wrapper
+{
+   
+        width: 600px;
+        height: 350px;
+        margin:50px auto;
+        position:relative;
+        cursor: pointer;
+        border-radius: 50px;
+        background: linear-gradient(71deg, rgba(106,171,172,1) 12%, rgba(139,190,123,1) 53%, rgba(215,194,69,1) 89%, rgba(253,187,45,1) 100%); 
+        box-shadow: 3px 3px 6px 5px #b5cabc;
+        font-family: 'Supermercado One', cursive;
+        font-size:2.5rem;
+        color:#300431;
+        
+    
+}
+
+.details1
+{
+    width:50%;
+    height:auto;
+    float:right;
+    position:absolute;
+    left:45%;
+    padding: 10px;
+}
+.pic1{
+    width:42%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+   
+
+
+}
+.pic1 img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    
+}
+
+#content4
+{
+   
+    height:auto;
+    
+
+}
+
+
+.wrapper1
+{
+   
+        width: 700px;
+        height: 410px;
+        margin:50px auto;
+        position:absolute;
+        top:35%;
+        left:30%;
+        cursor: pointer;
+        border-radius: 50px;
+        background: linear-gradient(330deg, rgba(139,190,123,1) 18%, rgba(221,155,129,1) 46%, rgba(179,201,57,1) 93%); 
+        box-shadow: 3px 3px 6px 5px #b5cabc;
+        font-family: 'Supermercado One', cursive;
+        font-size:2.5rem;
+        color:#300431;
+        
+    
+}
+#content5
+{
+    position:absolute;
+    top:22%;
+    left:10%;
+    width: 85%;
+    height:auto;
+	margin-top: 5%;
+	display: flex;
+    flex-direction:row;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    
+}
+
+.wrapper2
+{
+   
+    width: 700px;
+    height: 410px;
+    margin:70px auto;
+    position:relative;
+    cursor: pointer;
+    border-radius: 50px;
+    background: linear-gradient(330deg, rgba(139,190,123,1) 18%, rgba(221,155,129,1) 46%, rgba(179,201,57,1) 93%); 
+    box-shadow: 3px 3px 6px 5px #b5cabc;
+    font-family: 'Supermercado One', cursive;
+    font-size:2.5rem;
+    color:#300431;
+    
+}
+
+.details2
+{
+    width:50%;
+    height:auto;
+    float:right;
+    position:absolute;
+    top:5%;
+    left:45%;
+    padding: 10px;
+}
+.pic2{
+    width:42%;
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index:5;
+
+
+}
+.pic2 img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+   
+}
+.status
+{
+    font-family: 'Supermercado One', cursive;
+    font-size:5rem;
+    position: absolute;
+    top:30%;
+    left:26%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color:#3b0c3b;
+}
+.status1
+{
+    font-family: 'Supermercado One', cursive;
+    font-size:5rem;
+    position: absolute;
+    left:15%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color:#3b0c3b;
+}
+.message1
+{
+    position:absolute;
+    top:45%;
+    left:30%;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3.5rem;
+    color:#1d0933;
+
+}
+
+
+#content2
+{
+   
+    position:absolute;
+    top:20%;
+    left:10%;
+    width: 85%;
+    height:auto;
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+}
+.card-wrapper{
+	width: 600px;
+	height: 400px;
+	margin:50px auto;
+	position:relative;
+	cursor: pointer;
+   
+	
+}
+.card{
+	position: relative;
+    display:flex;
+    flex-direction: row;
+    width:100%;
+	height: 100%;
+	background: linear-gradient(233deg, rgba(139,190,123,1) 18%, rgba(215,194,69,1) 50%, rgba(106,171,172,1) 65%, rgba(253,187,45,1) 100%);
+    padding:20px;
+	box-shadow: 3px 3px 6px 5px #b5cabc;
+    font-family: 'Supermercado One', cursive;
+    font-size:2.5rem;
+
+}

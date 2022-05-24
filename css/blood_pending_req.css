@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.table-box{
+	margin: auto;
+	margin-top: 5%;
+	width: 90%;
+}
+table, th, td {
+  border: 4px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4;
+  text-align: center;
+  padding: 9px 5px;;
+}
+th{
+	font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #002D62;
+}
+td{
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.table-box h2{
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  margin: 50px 0px;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+#back_arrrow{
+  position: absolute;
+  top: 13%;
+  left: 2%;
+  font-size: 2rem;
+  color: black;
+}
